@@ -1,6 +1,6 @@
-import "./Card.css";
+import "./Card.css"
 
-function Card( {foto, nome} ){
+function Card( {foto, nome, des, qtd, preco} ){
     return(
         <div className="site">
             <div className="rounded-foto">
@@ -8,7 +8,10 @@ function Card( {foto, nome} ){
             </div>
 
             <div className="info-card">
-                <p>{nome}</p>	
+                <p className="nome">{nome}</p>
+                <p className="des">{des}</p>
+                <p className="qtd">{qtd}</p>
+                <p className="preco">{preco}</p>	
             </div>
         </div>
     );
