@@ -1,0 +1,35 @@
+.site{
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 112px;
+    height: 112px;
+    
+}
+.site:hover{
+    background-color: #d3d3d3;
+    color: black;
+}
+
+.rounded-foto{
+    margin-top: 15px;
+    background-color: #EEE;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.foto-perfil{
+    margin-top: 11px;
+    margin-left: 12px;
+    width: 24px;
+    height: 24px;
+}
+.info-card{
+    color: black;
+    font: 15px Arial;
+    margin-top: 10px;
+    text-align: center;
+}
