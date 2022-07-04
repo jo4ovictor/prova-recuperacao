@@ -3,33 +3,32 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 112px;
-    height: 112px;
-    
+    border: 1px solid rgba(128, 128, 128, 0.525);
+    width: 240px;
+    height: 380px;
+    padding: 5px;
+    margin: 50px 0 0 50px;
 }
-.site:hover{
-    background-color: #d3d3d3;
-    color: black;
-}
-
-.rounded-foto{
-    margin-top: 15px;
-    background-color: #EEE;
-    border-radius: 50%;
-    width: 48px;
-    height: 48px;
-}
-
 .foto-perfil{
-    margin-top: 11px;
-    margin-left: 12px;
-    width: 24px;
-    height: 24px;
+    width: 230px;
+    height: 200px;
 }
 .info-card{
     color: black;
-    font: 15px Arial;
     margin-top: 10px;
-    text-align: center;
+    font-family: 'Open Sans';
+}
+.nome{
+    font-weight: bold;
+}
+.des{
+    margin-top: 8px;
+}
+.qtd{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.preco{
+    font-weight: bold;
+    margin-top: 15px;
 }
