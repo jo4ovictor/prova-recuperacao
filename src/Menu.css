@@ -1,11 +1,39 @@
-.container{
-    align-items: center;
-    display: inline-flex;
-    justify-content: center;
-    margin: 0 24px;
+body {
+    font-family: "Open Sans";
 }
-.titulo{
-    font-family: Roboto, sans-serif;
-    font-size: 18px;
-    margin: 10px;
+
+.paginas{
+    
+    display: inline-flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.name1 {
+    display: inline-flex;
+    flex-direction: center;
+    align-items: center;
+
+}
+.n1 {
+    color: #FF0000;
+   
+}
+
+.n2 {
+    border-radius: 5px;
+    color: #FFF;
+    background-color: #FF0000;
+}
+
+.n2:hover {
+    background-color: #EEE;
+    color: #EA1D2C;
+    
+}
+
+.nome-pag2:hover {  
+    color: #EEE;
+    
 }

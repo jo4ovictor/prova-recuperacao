@@ -3,6 +3,30 @@ import Card from "./Card";
 import "./App.css"
 function App(){
 	
+	const lista_menu = [
+		{
+			foto: "logo.svg"
+		},
+		{
+			nome: "Entregador",
+		},
+		{
+			nome: "Restaurante e Mercado",
+		},
+		{
+			nome: "Carreiras",
+		},
+		{
+			nome: "iFood Card",
+		},
+		{
+			nome1: "Criar conta",
+		},
+		{
+			nome2: "Entrar"
+		},
+	  ];
+	
 	const sites = [
 		{	
 			foto: "big-king.webp",
@@ -37,7 +61,20 @@ function App(){
 	return(
 	  
 		<div className="conteiner">
-
+			<div>
+			{
+				lista_menu.map((menu) => {
+					return <Menu 
+					nome={menu.nome}
+					foto={menu.foto}
+					nome1={menu.nome1}
+					nome2={menu.nome2}
+							/>
+				  })
+			}
+			</div>
+			<div className="tit">Destaques</div>
+			<div className="produto">
 			{
 				sites.map((site) => {
 					return (
@@ -49,7 +86,10 @@ function App(){
 						/>
 					)
 				})
+
+			
 			}
+			</div>
 		</div>
 		
 	);
