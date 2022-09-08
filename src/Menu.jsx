@@ -1,4 +1,4 @@
-import "./Card.css";
+import "./Menu.css";
 
 function Menu({ foto, nome, nome1, nome2 }) {
     return (
