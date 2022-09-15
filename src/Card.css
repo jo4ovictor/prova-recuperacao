@@ -1,34 +1,33 @@
 .site{
     border-radius: 5px;
-    background-color: white;
-    display: flex;
+    background-color: #90e0ef;
     flex-direction: column;
     border: 1px solid rgba(128, 128, 128, 0.525);
     width: 240px;
-    height: 380px;
+    height: 280px;
     padding: 5px;
-    margin: 20px 0 0 50px;
+    margin: 20px 0 0 65px;
 }
 .foto-perfil{
-    width: 230px;
+    width: 240px;
     height: 200px;
 }
 .info-card{
-    color: black;
-    margin-top: 10px;
+    margin-top: 5px;
     font-family: 'Open Sans';
+    text-align: center;
 }
 .nome{
-    font-weight: bold;
-}
-.des{
-    margin-top: 8px;
-}
-.qtd{
-    font-weight: bold;
-    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
 }
 .preco{
-    font-weight: bold;
+    font-weight: lighter;
     margin-top: 15px;
+}
+.tit{
+    text-align: center;
+}
+.conteiner{
+    background-color: #145da0;
 }
