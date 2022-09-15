@@ -1,21 +1,34 @@
-import "./Card.css";
+import "./Menu.css";
 
-function Menu({ foto, nome, nome1, nome2 }) {
+function Menu() {
     return (
+    
         <div className="paginas">
-            <div className="foto-pag">
-                <img className="foto" src={foto} />
-            </div>
-            <div className="name">
+
+           <div className="logo">
+            <img className="foto" src="logo.png" />
+            <p>IF GAMES</p>
+           </div>
+                
+            
+            
                 <div className="name1">
-                    <div className="nome-pag">
-                        <p>{nome}</p>
-                    </div>
+                        <p>Home</p>
                 </div>
-            </div>
+                <div className="name1">
+                        <p>Produtos</p>
+                </div>
+                <div className="name1">
+                        <p>Carrinho</p>
+                </div>
+                <div className="name1">
+                        <p>Contato</p>
+                </div>
+                <div className="name1">
+                        <p>Sobre</p>
+                </div>
             <div className="nome-pag2">
-                <p className="n1">{nome1}</p>
-                <p className="n2">{nome2}</p>
+                <p className="n2">Login</p>
             </div>
         </div>
     );

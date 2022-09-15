@@ -7,6 +7,9 @@
 .produto{
   display: flex;
 }
+.menu{
+  display: flex;
+}
 .tit{
   font-weight: bold;
   margin-left: 50px;
