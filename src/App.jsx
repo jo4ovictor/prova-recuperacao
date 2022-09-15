@@ -1,30 +1,49 @@
 import Menu from "./Menu"
 import Card from "./Card";
 import "./App.css"
+import "./Card.css"
 function App(){
 	const sites = [
 		{	
-			foto: "big-king.webp",
-			nome: "Combo Big King",
-			des: "Um Hambúrguer com duas carnes bovinas grelhadas de 57g. pão com gergelin, queijo...",
-			qtd: "Serve 1 pessoa",
-			preco: "R$ 41,90"
+			foto: "fort.jpg",
+			nome: "FORTNITE",
+			preco: "GRATUITO",
+			botoes: "COMPRAR",
 		},
+		{	
+			foto: "fifa.png",
+			nome: "FIFA 22",
+			preco: "R$ 469,99",
+			botoes: "COMPRAR",
+		},
+		{	
+			foto: "god.jpg",
+			nome: "GOD OF WAR",
+			preco: "R$ 246,31",
+			botoes: "COMPRAR",
+		},
+		{	
+			foto: "last.jpg",
+			nome: "THE LAST OF US: PART II",
+			preco: "R$ 109,00",
+			botoes: "COMPRAR",
+		},
+
 	];
 	return(
 		
 		<div className="conteiner">
+
 			<Menu/>
-			<div className="tit">Destaques</div>
+			<div className="tit">CONHEÇA NOSSOS JOGOS</div>
 			<div className="produto">
 			{
 				sites.map((site) => {
 					return (
 					<Card  foto={site.foto}
 							nome={site.nome}
-							des={site.des}
-							qtd={site.qtd}
 							preco={site.preco}
+							botoes={site.botoes}
 						/>
 					)
 				})
