@@ -1,3 +1,6 @@
+body{
+    font-family: "Open Sans";
+}
 .site{
     border-radius: 5px;
     background-color: #90e0ef;
@@ -30,4 +33,7 @@
 }
 .conteiner{
     background-color: #145da0;
+}
+.produto{
+    width: 1200px;
 }
