@@ -1,5 +1,5 @@
-import "./Card.css"
 
+import "./Card.css"
 function Card( {foto, nome, des, qtd, preco} ){
     return(
         <div className="site">
