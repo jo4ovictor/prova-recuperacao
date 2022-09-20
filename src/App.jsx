@@ -37,7 +37,7 @@ function App(){
 		{	
 			foto: "zelda.png",
 			nome: "THE LEGEND OF ZELDA",
-			preco: "R$ 346,80",
+			preco: "R$ 346,70",
 			botoes: "COMPRAR",
 		},
 		{	
