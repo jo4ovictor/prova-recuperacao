@@ -5,20 +5,14 @@ body{
     border-radius: 5px;
     background-color: #90e0ef;
     border: 1px solid rgba(128, 128, 128, 0.525);
-    width: 240px;
+    width: 1180px;
     height: 280px;
     padding: 5px;
     margin: 20px 0 0 65px;
-    
 }
 .foto-perfil{
     width: 240px;
     height: 200px;
-}
-.info-card{
-    margin-top: 5px;
-    font-family: 'Open Sans';
-    text-align: center;
 }
 .nome{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -26,10 +20,15 @@ body{
 }
 .preco{
     font-weight: lighter;
-    margin-top: 15px;
+    margin-top: 8px;
 }
+
 .tit{
     text-align: center;
+    color: yellow;
+    background-color: black;
+    width: 400px;
+    border-radius: 20px;
 }
 .conteiner{
     background-color: #145da0;
@@ -38,9 +37,9 @@ body{
     margin-left: 0px;
 }
 .produto{
-    flex-direction: column
+    flex-direction: column;
 }
-
 .bot{
     margin-top: 3px;
+    margin-left: 167px;
 }
