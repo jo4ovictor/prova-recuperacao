@@ -5,7 +5,7 @@ import "./Card.css"
 function App(){
 	const sites = [
 		{	
-			foto: "fort.jpg",
+			foto: "fort.jpg",			
 			nome: "FORTNITE",
 			preco: "GRATUITO",
 			botoes: "COMPRAR",
@@ -28,7 +28,24 @@ function App(){
 			preco: "R$ 109,00",
 			botoes: "COMPRAR",
 		},
-
+		{	
+			foto: "horizon.png",
+			nome: "HORIZON FORBIDDEN WEST",
+			preco: "R$ 184,50",
+			botoes: "COMPRAR",
+		},
+		{	
+			foto: "zelda.png",
+			nome: "THE LEGEND OF ZELDA",
+			preco: "R$ 346,80",
+			botoes: "COMPRAR",
+		},
+		{	
+			foto: "mine.png",
+			nome: "MINECRAFT",
+			preco: "R$ 150,00",
+			botoes: "COMPRAR",
+    }
 	];
 	return(
 		
