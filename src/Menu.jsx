@@ -1,5 +1,4 @@
 import "./Menu.css";
-
 function Menu() {
     return (
     
@@ -9,23 +8,20 @@ function Menu() {
             <img className="foto" src="logo.png" />
             <p>IF GAMES</p>
            </div>
-                
-            
-            
                 <div className="name1">
-                        <p>Home</p>
+                        <button>Home</button>
                 </div>
                 <div className="name1">
-                        <p>Produtos</p>
+                        <button>Produtos</button>
                 </div>
                 <div className="name1">
-                        <p>Carrinho</p>
+                        <button>Carrinho</button>
                 </div>
                 <div className="name1">
-                        <p>Contato</p>
+                        <button>Contato</button>
                 </div>
                 <div className="name1">
-                        <p>Sobre</p>
+                        <button>Sobre</button>
                 </div>
             <div className="nome-pag2">
                 <p className="n2">Login</p>
