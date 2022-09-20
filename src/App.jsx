@@ -56,7 +56,7 @@ function App(){
 			descricao1: "Ficou com alguma dúvida?",
 			descricao2: "estamos a disposição para lhe atender,",
 			descricao3: "nos envie uma mensagem!",
-		},
+    },
 	];
 	return(
 		
