@@ -4,7 +4,7 @@ body{
 .site{
     border-radius: 5px;
     background-color: #90e0ef;
-    border: 1px solid rgba(128, 128, 128, 0.525);
+    border: 5px solid rgba(128, 128, 128, 0.525);
     width: 1180px;
     height: 280px;
     padding: 5px;
