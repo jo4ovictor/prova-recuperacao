@@ -45,7 +45,7 @@ function App(){
 			nome: "MINECRAFT",
 			preco: "R$ 150,00",
 			botoes: "COMPRAR",
-		},
+    }
 	];
 	return(
 		
