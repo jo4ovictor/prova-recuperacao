@@ -1,11 +1,13 @@
 import Menu from "./Menu"
 import Card from "./Card";
+import Rodape from "./Rodape";
+import "./Rodape"
 import "./App.css"
 import "./Card.css"
 function App(){
 	const sites = [
 		{	
-			foto: "fort.jpg",
+			foto: "fort.jpg",			
 			nome: "FORTNITE",
 			preco: "GRATUITO",
 			botoes: "COMPRAR",
@@ -28,7 +30,33 @@ function App(){
 			preco: "R$ 109,00",
 			botoes: "COMPRAR",
 		},
+		{	
+			foto: "horizon.png",
+			nome: "HORIZON FORBIDDEN WEST",
+			preco: "R$ 184,50",
+			botoes: "COMPRAR",
+		},
+		{	
+			foto: "zelda.png",
+			nome: "THE LEGEND OF ZELDA",
+			preco: "R$ 346,80",
+			botoes: "COMPRAR",
+		},
+		{	
+			foto: "mine.png",
+			nome: "MINECRAFT",
+			preco: "R$ 150,00",
+			botoes: "COMPRAR",
+		},
+	];
 
+	const rodapé = [
+		{
+			titulo: "CONTATO",
+			descricao1: "Ficou com alguma dúvida?",
+			descricao2: "estamos a disposição para lhe atender,",
+			descricao3: "nos envie uma mensagem!",
+    },
 	];
 	return(
 		
@@ -47,8 +75,20 @@ function App(){
 						/>
 					)
 				})
+			}
+			</div>
 
-			
+			<div className="final">
+			{
+				rodapé.map((textofinal) => {
+					return (
+						<Rodape titulo={textofinal.titulo}
+								descricao1={textofinal.descricao1}
+								descricao2={textofinal.descricao2}
+								descricao3={textofinal.descricao3}
+						/>
+					)
+				})
 			}
 			</div>
 		</div>
