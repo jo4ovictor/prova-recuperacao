@@ -4,12 +4,12 @@ body{
 .site{
     border-radius: 5px;
     background-color: #90e0ef;
-    flex-direction: column;
     border: 1px solid rgba(128, 128, 128, 0.525);
     width: 240px;
     height: 280px;
     padding: 5px;
     margin: 20px 0 0 65px;
+    
 }
 .foto-perfil{
     width: 240px;
@@ -36,4 +36,11 @@ body{
 }
 .paginas{
     margin-left: 0px;
+}
+.produto{
+    flex-direction: column
+}
+
+.bot{
+    margin-top: 3px;
 }
